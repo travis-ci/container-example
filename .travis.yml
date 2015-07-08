@@ -10,6 +10,9 @@ before_install:
   - ./install-protobuf.sh
 
 # check what has been installed by listing contents of protobuf folder
-script:
+before_script:
   - ls -R $HOME/protobuf
+
+# let's use protobuf
+script:
   - $HOME/protobuf/bin/protoc -I=$PWD --cpp_out=$PWD person.proto
