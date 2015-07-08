@@ -3,4 +3,4 @@ language: ruby
 sudo: false
 
 before_install:
-  - /install-protobuf.sh
+  - install-protobuf.sh
