@@ -1,8 +1,8 @@
 language: ruby
 
-# cache:
-#   directories:
-#   - $HOME/protobuf
+cache:
+  directories:
+  - $HOME/protobuf
 
 sudo: false
 

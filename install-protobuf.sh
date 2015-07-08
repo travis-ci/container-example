@@ -1,6 +1,6 @@
 #!/bin/sh
 set -ex
-# check to see if folder exists then exit
+# check to see if protobuf folder is empty
 if [ ! -d "$HOME/protobuf/lib" ]; then
   wget https://protobuf.googlecode.com/files/protobuf-2.4.1.tar.gz
   tar -xzvf protobuf-2.4.1.tar.gz
