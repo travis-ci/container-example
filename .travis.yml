@@ -16,3 +16,4 @@ before_script:
 # let's use protobuf
 script:
   - $HOME/protobuf/bin/protoc --cpp_out=$PWD person.proto
+  - ls -l
