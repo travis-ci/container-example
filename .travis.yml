@@ -3,6 +3,4 @@ language: ruby
 sudo: false
 
 before_install:
-  - cd $HOME
-  - install-protobuf.sh
-  - cd $TRAVIS_BUILD_DIR
+  - ./install-protobuf.sh
