@@ -1,5 +1,5 @@
 #!/bin/sh
-set -ex
+set -e
 # check to see if protobuf folder is empty
 if [ ! -d "$HOME/protobuf/lib" ]; then
   wget https://protobuf.googlecode.com/files/protobuf-2.4.1.tar.gz
