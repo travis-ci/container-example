@@ -12,4 +12,4 @@ before_install:
 # check what has been installed by listing contents of protobuf folder
 script:
   - ls -R $HOME/protobuf
-  - $HOME/protobuf/bin/protoc person.proto
+  - $HOME/protobuf/bin/protoc -I=$PWD --cpp_out=$PWD person.proto
