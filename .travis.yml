@@ -5,4 +5,6 @@ sudo: false
 before_install:
   - ./install-protobuf.sh
 
-script: true
+# to check what has been installed, list contents of protobuf folder
+script:
+  - ls -R $HOME/protobuf
