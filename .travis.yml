@@ -12,3 +12,4 @@ before_install:
 # check what has been installed by listing contents of protobuf folder
 script:
   - ls -R $HOME/protobuf
+  - protobuf/bin/protoc person.proto
