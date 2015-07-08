@@ -15,4 +15,4 @@ before_script:
 
 # let's use protobuf
 script:
-  - $HOME/protobuf/bin/protoc -I=$PWD --cpp_out=$PWD person.proto
+  - $HOME/protobuf/bin/protoc --cpp_out=$PWD person.proto
