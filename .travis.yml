@@ -7,7 +7,7 @@ cache:
 sudo: false
 
 before_install:
-  - ./install-protobuf.sh
+  - bash install-protobuf2.sh
 
 # check what has been installed by listing contents of protobuf folder
 before_script:
